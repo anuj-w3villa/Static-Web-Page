@@ -1,0 +1,593 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+html{
+    font-size: 90%;
+}
+
+/* HEADER CSS */
+
+.header-content {
+    height: 100vh;
+    width: 100vw;
+    background-image: linear-gradient(70deg, rgba(42, 27, 161, 0.7), rgba(29, 210, 177, 0.7) 100%), url('section1.jpg');
+
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    box-shadow: 1px 1px 3px#2b2828ab;
+}
+
+nav p {
+    padding: 1.4rem;
+    margin: 1.6rem;
+    color: whitesmoke;
+    font-size: 2rem;
+    font-family: 'Merriweather', serif;
+    cursor: pointer;
+}
+
+nav ul {
+    display: flex;
+}
+
+nav ul li {
+    text-decoration: none;
+    list-style: none;
+    margin: 1rem;
+    padding: 1rem;
+    color: whitesmoke;
+    font-size: 1.5rem;
+    font-family: 'Merriweather', serif;
+    cursor: pointer;
+}
+
+nav ul button {
+    margin: 1.4rem 20rem 1.4rem 1.4rem;
+    height: 7vh;
+    width: 15vw;
+    cursor: pointer;
+    background-color: blue;
+    border-radius: .7rem;
+    box-shadow: .2rem .2rem .2rem #201e1ea1;
+    font-size: 1rem;
+}
+
+.header-container {
+    margin: 40vh 0vw 0vh 7vw;
+    width: 40vw;
+}
+
+.header-container h1 {
+    font-size: 3rem;
+    font-family: 'Merriweather', serif;
+    color: whitesmoke;
+}
+
+.header-container p {
+    color: white;
+    font-size: 1.5rem;
+
+}
+
+.view-demo {
+    background-color: white;
+    color: black;
+    margin-right: 1.5rem;
+    margin-top: 1.5rem;
+    padding: .3rem;
+    height: 6vh;
+    width: 15vw;
+    cursor: pointer;
+}
+
+.learn-more {
+    background-color: transparent;
+    color: white;
+    border: .2rem solid white;
+    margin-top: .1rem;
+    height: 6vh;
+    width: 12vw;
+    cursor: pointer;
+}
+
+/* BOX CSS */
+
+.box-content {
+    display: flex;
+}
+
+.box-content .box1 {
+    background-color: darkblue;
+    width: 25vw;
+    text-align: center;
+    color: aliceblue;
+    padding: .6rem .3rem .6rem .3rem;
+
+}
+
+.box-content .box2 {
+    background-color: rgba(1, 123, 20, 0.732);
+    width: 25vw;
+    text-align: center;
+    color: aliceblue;
+    padding: .6rem .3rem .6rem .3rem;
+
+}
+
+.box-content .box3 {
+    background-color: rgb(58, 171, 209);
+    width: 25vw;
+    text-align: center;
+    color: aliceblue;
+    padding: .6rem .3rem .6rem .3rem;
+}
+
+.box-content .box4 {
+    background-color: blueviolet;
+    width: 25vw;
+    text-align: center;
+    color: aliceblue;
+    padding: .6rem .3rem .6rem .3rem;
+}
+
+/* WORK SECTION CSS */
+.work-section {
+    background-color: rgb(233, 221, 206);
+    padding-bottom: .7rem;
+}
+
+.work-section .top h1 {
+    text-align: center;
+    margin: 0vh 0vh 4vh;
+    font-size: 2rem;
+    padding-top: 9vh;
+
+}
+
+.work-section .top p {
+    text-align: center;
+    margin-left: 30vw;
+    margin-right: 30vw;
+}
+
+.work-div {
+    display: flex;
+    margin: 6vh 20vw 0vh 20vw;
+}
+
+.work-section .left {
+    justify-content: center;
+    text-align: center;
+
+}
+
+.work-section .center {
+    justify-content: center;
+    text-align: center;
+
+}
+
+.work-section .right {
+    justify-content: center;
+    text-align: center;
+
+}
+
+/* PROJECT CSS */
+
+.project-section .top {
+    margin: 5vh;
+    text-align: center;
+}
+
+.project-section .top h1 {
+    font-size: 2rem;
+    font-family: 'Merriweather', serif;
+}
+
+.project-section .top p {
+    margin-left: 20vw;
+    margin-right: 20vw;
+    padding: .8rem;
+}
+
+.project-section .middle {
+    display: flex;
+    padding-left: .1rem;
+    padding-right: .1rem;
+    margin-left: 5rem;
+    margin-right: 5rem;
+}
+
+.project-section .middle img {
+    margin-left: 6vw;
+    padding-right: 6vw;
+    padding-bottom: 4vh;
+    border-radius: .7rem;
+}
+
+
+.project-section .middle .content .education i {
+    display: inline;
+
+}
+
+.project-section .middle .content .education h2 {
+    display: inline;
+
+}
+
+.project-section .middle .content .tech i {
+    display: inline;
+
+}
+
+.project-section .middle .content .tech h2 {
+    display: inline;
+
+}
+
+.project-section .middle .content .finance i {
+    display: inline;
+
+}
+
+.project-section .middle .content .finance h2 {
+    display: inline;
+
+}
+.project-section .middle img{
+    width: 60rem;
+    height: 30rem;
+}
+
+.project-section .bottom {
+    display: flex;
+    padding-left: .1rem;
+    padding-right: .1rem;
+    margin-left: 5rem;
+    margin-right: 5rem;
+    margin-top: 5rem;
+}
+
+.project-section .bottom img {
+
+    margin-left: 6vw;
+    padding-right: 6vw;
+    padding-bottom: 4vh;
+    border-radius: .7rem;
+    width: 60rem;
+    height: 30rem;
+
+}
+
+.project-section bottome .content .marketing i {
+    display: inline;
+
+}
+
+.project-section .bottom .content .marketing h2 {
+    display: inline;
+
+}
+
+.project-section .bottom .content entertainment i {
+    display: inline;
+
+}
+
+.project-section .bottom .content .entertainment h2 {
+    display: inline;
+
+}
+
+.project-section .bottom .content .comm i {
+    display: inline;
+
+}
+
+.project-section .bottom .content .comm h2 {
+    display: inline;
+
+}
+
+/* PRICING SECTION */
+.pricing-section {
+    background-color: blue;
+}
+
+.pricing-section .top {
+    text-align: center;
+    margin-top: 7vh;
+    padding: 7vh;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.pricing-section .top h1 {
+    color: whitesmoke;
+    font-size: 3rem;
+}
+
+.pricing-section .top p {
+    color: whitesmoke;
+    padding: 1.5rem;
+    margin: 2vh 20vw 2vh 20vw;
+    font-size: 1.3rem;
+}
+
+.pricing-section .bottom h1 {
+    font-size: 4rem;
+}
+
+.pricing-section .bottom {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.5rem;
+    color: whitesmoke;
+    font-weight: bold;
+    padding: 5vh;
+}
+
+.pricing-section .bottom .box1 {
+    background-image: linear-gradient(to bottom, rgba(58, 58, 49, 0.5), rgba(36, 36, 39, 0)), url('section-3.jpg');
+    background-size: 91.5rem;
+    height: 90vh;
+    width: 70vw;
+    text-align: center;
+    justify-content: center;
+    line-height: 10vh;
+    border-radius: .9rem;
+    margin: 3vh;
+}
+
+.pricing-section .bottom .box2 {
+    background-image: linear-gradient(to bottom, rgba(0, 62, 133, 0.938), rgba(60, 116, 102, 0)), url('section-3.jpg');
+    background-size: 91.5rem;
+    height: 90vh;
+    width: 70vw;
+    text-align: center;
+    justify-content: center;
+    line-height: 10vh;
+    border-radius: .9rem;
+    margin: 3vh;
+}
+
+.pricing-section .bottom .box3 {
+    background-image: linear-gradient(to bottom, rgba(136, 20, 0, 0.849), rgba(134, 88, 88, 0)), url('section-3.jpg');
+    background-size: 91.5rem;
+    height: 90vh;
+    width: 70vw;
+    text-align: center;
+    justify-content: center;
+    line-height: 10vh;
+    border-radius: .9rem;
+    margin: 3vh;
+}
+
+.pricing-section .bottom .box1 button {
+    text-transform: uppercase;
+    padding: 1.8rem;
+    background: transparent;
+    border: 2px solid white;
+    color: whitesmoke;
+    font-weight: bold;
+    width: 9vw;
+    margin-left: 4vw;
+
+}
+
+.pricing-section .bottom .box2 button {
+    text-transform: uppercase;
+    padding: 1.8rem;
+    background: transparent;
+    border: 2px solid white;
+    color: whitesmoke;
+    font-weight: bold;
+    width: 9vw;
+    margin-left: 4vw;
+}
+
+.pricing-section .bottom .box3 button {
+    text-transform: uppercase;
+    padding: 1.8rem;
+    background: transparent;
+    border: 2px solid white;
+    color: whitesmoke;
+    font-weight: bold;
+    width: 9vw;
+    margin-left: 4vw;
+}
+
+/* TEAM MEMBER CSS */
+.team-member .top h1 {
+    padding-bottom: 1.5rem;
+    font-size: 3rem;
+    font-weight: bold;
+}
+
+.team-member .top {
+    justify-content: center;
+    text-align: center;
+    margin-bottom: .1rem;
+    padding-left: 8rem;
+    padding-right: 2rem;
+    padding-top: 2rem;
+    margin-left: 2rem;
+    margin-right: 20vw;
+}
+
+.team-member .bottom {
+
+    display: flex;
+    margin-top: 2.5rem;
+
+}
+
+.team-member .bottom p {
+    font: bold;
+    font-weight: bold;
+    font-size: 2rem;
+
+}
+
+.team-member .bottom small {
+    color: grey;
+    font-weight: bold;
+    font-size: 1rem;
+
+}
+
+.team-member .bottom img {
+    border-radius: .9rem;
+}
+
+.team-member .bottom .upper {
+    margin-left: 20rem;
+    margin-right: 10vw;
+}
+
+.team-member .bottom .container {
+    margin-top: .1rem;
+    padding-left: .1rem;
+    width: 20vw;
+}
+
+.team-member .bottom .box2 {
+    margin-top: 2rem;
+}
+
+.team-member .bottom .box4 {
+    margin-top: 2rem;
+}
+
+.team-member .bottom a {
+    text-decoration: none;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+/* CONTACT CSS */
+.contact-section {
+    padding-top: 1.5rem;
+    background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.5), rgba(36, 36, 39, 0)), url('section1.jpg');
+    background-size: 100% auto;
+    background-repeat: no-repeat;
+    margin-top: 2rem;
+    height: 100vh;
+}
+
+.contact-section h1 {
+    text-align: center;
+    font-size: 3rem;
+    font-family: 'Merriweather', serif;
+    color: antiquewhite;
+
+}
+
+.contact-section .top {
+    color: rgb(255, 255, 255);
+    justify-content: center;
+    text-align: center;
+    width: 70vw;
+    margin-left: 20rem;
+    font-size: 1.5rem;
+}
+
+.contact-section .form {
+    background-color: white;
+    border-radius: 1rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: left;
+    margin: 7vw;
+    height: 27rem;
+    padding: 5rem;
+    margin-bottom: 7vh;
+}
+
+#name {
+    padding: 1rem;
+    margin: 2vh;
+    font-family: 'Baloo Bhai 2', cursive;
+    font-family: 'Lobster', cursive;
+    font-family: 'Rubik', sans-serif;
+    border-style: none;
+    border-bottom: .2rem solid grey;
+    outline: none;
+    font-size: 1rem;
+
+}
+
+#email {
+    padding: 1rem;
+    margin: 2vh;
+    font-family: 'Baloo Bhai 2', cursive;
+    font-family: 'Lobster', cursive;
+    font-family: 'Rubik', sans-serif;
+    border-style: none;
+    border-bottom: .2rem solid grey;
+    outline: none;
+    font-size: 1rem;
+
+}
+
+#subject {
+    padding: 1rem;
+    margin: 2vh;
+    font-family: 'Baloo Bhai 2', cursive;
+    font-family: 'Lobster', cursive;
+    font-family: 'Rubik', sans-serif;
+    border-style: none;
+    border-bottom: .2rem solid grey;
+    outline: none;
+    font-size: 1rem;
+}
+
+#message {
+    padding: 1rem;
+    margin: 2vh;
+    font-family: 'Baloo Bhai 2', cursive;
+    font-family: 'Lobster', cursive;
+    font-family: 'Rubik', sans-serif;
+    font-size: 1rem;
+
+}
+
+.contact-section .form button {
+    width: 12vw;
+    height: 7vh;
+    background-color: rgb(0, 30, 255);
+    cursor: pointer;
+    box-shadow: #201e1ea1;
+    padding: .5rem;
+    color: black;
+    font-family: 'Baloo Bhai 2', cursive;
+    font-family: 'Lobster', cursive;
+    font-family: 'Rubik', sans-serif;
+    font-size: 1rem;
+}
+
+/* FOOTER CSS */
+.footer-section {
+    color: white;
+    height: 8vh;
+    justify-content: center;
+    text-align: center;
+    padding-top: 1.8rem;
+    background-color: rgba(86, 25, 192, 0.864);
+}
+
+footer {
+    height: 5vh;
+    text-align: center;
+    font-family: 'Baloo Bhai 2', cursive;
+    font-family: 'Lobster', cursive;
+    font-family: 'Rubik', sans-serif;
+    background-color: rgb(0, 30, 255);
+    color: whitesmoke;
+
+}
